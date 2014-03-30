@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('weatherBtn').click(function() {
+    $('#weatherBtn').click(function() {
         var city = $('#cityFld').val();
         var countryCode = $('#countryCodeFld').val();
         $.getJSON('http://api.openweathermap.org/data/2.5/weather',
